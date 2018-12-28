@@ -1,6 +1,6 @@
 # Masonry Chain
 
-对[`Masonry`](https://github.com/SnapKit/Masonry)的`MASConstraintMaker`进行扩展，让它支持另外一种风格(不用写那么多`make`)的链式操作
+对[`Masonry`](https://github.com/SnapKit/Masonry)的`MASConstraintMaker`进行扩展，让它支持另外一种风格(不用写那么多`make`)的链式操作
 
 只对常用的方法进行封装，满足日常需求，若遇到特殊情况（如设置优先级），请使用原写法
 
@@ -26,7 +26,7 @@
     }];
 
 ```
-引入后写法
+引入后写法
 ```obj-c
 
     UIView *view1 = [[UIView alloc] init];
@@ -54,7 +54,7 @@
 
 ## 方法
 
-| 方法 | 对应 |
+| 方法 | 对应 |
 | ------ | ------ |
 | xs_leftEqualTo(value, offset?)                    |  left.mas_equalTo(value).mas_offset(offset)                   |
 | xs_topEqualTo(value, offset?)                     |  top.mas_equalTo(value).mas_offset(offset)                    |
